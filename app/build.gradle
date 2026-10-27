@@ -1,0 +1,4 @@
+plugins { id 'com.android.application' }
+android { namespace 'com.freedom.fbvideo'; compileSdk 35
+ defaultConfig { applicationId 'com.freedom.fbvideo'; minSdk 26; targetSdk 28; versionCode 1; versionName '1.0' } }
+dependencies { implementation 'com.github.yausername.youtubedl-android:library:0.17.4'; implementation 'com.github.yausername.youtubedl-android:ffmpeg:0.17.4' }
